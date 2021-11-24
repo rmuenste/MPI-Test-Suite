@@ -37,4 +37,8 @@ add_executable(example2 example2.cpp)
 target_include_directories(example2 PUBLIC ${MPI_CXX_HEADER_DIR})
 target_link_libraries(example2 ${MPI_msmpi_LIBRARY})
 
+add_executable(example3 example3.cpp)
+target_include_directories(example3 PUBLIC ${MPI_CXX_HEADER_DIR})
+target_link_libraries(example3 ${MPI_msmpi_LIBRARY})
+
 
